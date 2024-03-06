@@ -7,17 +7,18 @@ body{
 }
 
 /* Header styles */
-.container{
-    width: 900px;
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-}
 .header{
     background-color: #1F2937;
     display: flex;
     justify-content: center;    
     padding: 8px;    
+}
+
+.container{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
 }
 
 .logo{
@@ -43,10 +44,33 @@ a{
 
 /* Top sextion styles */
 
+.hero-section{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
 /* Info section styles */
+.info-section{
+    height: 300px;
+}
 
 /* Quote section styles */
-
+.quote-section{
+    background-color: #E5E7EB;
+    height: 200px;
+}
 /* Call to action section styles */
-
+.bottom-callToAction{
+    height: 200px;
+}
 /* Footer styles */
+.footer {
+    background-color: #1F2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
