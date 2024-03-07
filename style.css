@@ -8,18 +8,18 @@ body{
 }
 
 /* Header styles */
-.header{
+.top-container{
     background-color: #1F2937;
     display: flex;
     justify-content: center;    
-    padding: 8px;    
 }
 
-.container{
-    width: 900px;
+.header{
+    width: 1100px;
     display: flex;
     justify-content: space-between;
     align-items:center;
+    margin-top: 16px;
 }
 
 .logo{
@@ -43,16 +43,44 @@ a{
     color: #E5E7EB;
 }
 
-/* Top sextion styles */
+/* Hero section styles */
 
 .hero-section{
-    background-color: #1F2937;
+    width: 1100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    padding: 80px 0px;
+    gap: 32px;
 }
 
+h1.hero-title{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+p.hero-text, .img-placeholder, button{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    font-weight: bold;
+    background-color: #3882F6;
+    padding: 8px 32px;
+}
+
+.img-placeholder{
+    background-color: #63727d;
+    height: 280px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
 /* Info section styles */
 .info-section{
     height: 300px;
