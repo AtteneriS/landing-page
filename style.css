@@ -4,7 +4,7 @@ body{
     padding: 0;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 /* Header styles */
@@ -85,7 +85,21 @@ button{
 }
 /* Info section styles */
 .info-section{
-    height: 300px;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-boxes{
+    display: flex;
+}
+.box {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
 }
 
 /* Quote section styles */
