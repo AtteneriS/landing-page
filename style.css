@@ -70,6 +70,8 @@ button{
     font-weight: bold;
     background-color: #3882F6;
     padding: 8px 32px;
+    border-radius: 8px;
+    border-style: none;
 }
 
 .img-placeholder{
