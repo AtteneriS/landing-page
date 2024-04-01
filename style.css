@@ -5,6 +5,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    color: #1F2937;
 }
 
 .content{
@@ -20,7 +21,7 @@ body{
 }
 
 .header{
-    width: 1100px;
+    width: 69em;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -51,7 +52,7 @@ a{
 /* Hero section styles */
 
 .hero-section{
-    width: 1100px;
+    width: 69em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,13 +92,13 @@ button{
 /* Info section styles */
 .info-section{
     text-align: center;
+    padding-bottom: 80px;
 }
 
 h2 {
     font-size: 36px;
     font-weight: extra-bold;
     padding: 0px 48px;
-    color: #1F2937;
 }
 .info-boxes{
     display: flex;
@@ -119,9 +120,30 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
 /* Quote section styles */
 .quote-section{
     background-color: #E5E7EB;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.quote-section > div{
+    width: 800px;
+}
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.quote-author{
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+    font-weight: bold;
 }
 /* Call to action section styles */
 .bottom-callToAction{
