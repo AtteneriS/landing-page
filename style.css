@@ -157,7 +157,7 @@ h2 {
     width: 60em;
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 16px;
+    border-radius: 8px;
     padding: 60px 100px;
 }
 .inner-box{
@@ -167,7 +167,7 @@ h2 {
 .cta-title{
     font-size: 24px;
     margin: 0;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .cta-button{
@@ -177,7 +177,8 @@ h2 {
 /* Footer styles */
 .footer {
     background-color: #1F2937;
-    height: 50px;
+    color: #F9FAF8;
+    padding: 20px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
