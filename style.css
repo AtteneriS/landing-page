@@ -4,9 +4,14 @@ body{
     padding: 0;
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
+.content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
 /* Header styles */
 .top-container{
     background-color: #1F2937;
@@ -75,7 +80,7 @@ button{
 }
 
 .img-placeholder{
-    background-color: #63727d;
+    background-color: #6d747d;
     height: 280px;
     width: 600px;
     display: flex;
@@ -85,36 +90,46 @@ button{
 }
 /* Info section styles */
 .info-section{
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    padding: 0px 48px;
+    color: #1F2937;
+}
+.info-boxes{
     display: flex;
-    height: 200px;
+    justify-content: center;
+    gap: 85px;
+}
+
+.box {
+    border: 4px solid #3b82F6;
+    border-radius: 18px;
+    height: 175px;
+    width: 175px;
+}
+
+.item {
+    max-width: 150px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-.info-boxes{
-    display: flex;
-}
-.box {
-    border: 2px solid #3882F6;
-    border-radius: 8px;
-    height: 100px;
-    width: 100px;
-}
-
 /* Quote section styles */
 .quote-section{
     background-color: #E5E7EB;
-    height: 200px;
 }
 /* Call to action section styles */
 .bottom-callToAction{
-    height: 200px;
 }
 /* Footer styles */
 .footer {
     background-color: #1F2937;
-    height: 80px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
